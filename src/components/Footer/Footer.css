@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background: #560000;
+}
+
+footer h2 {
+  color: #e7c27d;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.6), 0 0 15px rgba(86, 0, 0, 0.6);
+}
+
+footer p {
+  text-align: center;
+}
