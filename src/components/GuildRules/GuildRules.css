@@ -1,22 +1,19 @@
 .rules-container {
-  max-width: 800px;
-  margin: -2em ;
+  margin: 2em 0em;
   padding: 2rem;
   background: rgba(26, 26, 26, 0.9);
   border: 5px groove #e7c27d;
   border-radius: 15px;
   color: #fff;
   box-shadow: 0 0 30px rgba(86, 0, 0, 0.5);
-  /* max-height: 70vh; */
   overflow-y: auto;
   text-align: left;
 }
 
-/* Custom Scrollbar */
-.rules-container::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 8px;
 }
-.rules-container::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background: #e7c27d;
   border-radius: 10px;
 }
@@ -44,7 +41,6 @@
   color: #ccc;
   line-height: 1.6;
   font-size: 0.95rem;
-  list-style: none;
 }
 
 .highlight {

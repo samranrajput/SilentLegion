@@ -17,7 +17,7 @@ body {
 .body {
   display: flex;
   flex-direction: column;
-  row-gap: 4.9em;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -55,7 +55,6 @@ main {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  row-gap: 8em;
 }
 
 figure {
@@ -72,5 +71,19 @@ figure {
   }
   to {
     opacity: 0;
+  }
+}
+
+@media (max-width: 850px) and (orientation: portrait) {
+  html,
+  body {
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 450px) and (orientation: portrait) {
+  html,
+  body {
+    font-size: 80%;
   }
 }

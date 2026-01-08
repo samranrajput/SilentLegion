@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer data-aos="fade-up" data-aos-delay="2000">
-      <h2>ѕιℓєηтℓιση</h2>
+      <h2>ѕιℓєηтℓєgιση</h2>
       <p>
         Website Developed By
         <br />

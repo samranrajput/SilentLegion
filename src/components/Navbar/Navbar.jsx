@@ -4,7 +4,7 @@ function Navbar({ activeNav, setActiveNav }) {
   return (
     <nav data-aos="fade-down" data-aos-delay="2000">
       <h2 data-aos="fade-right" data-aos-delay="3000">
-        ѕιℓєηтℓιση
+        ѕιℓєηтℓєgιση
       </h2>
       <ul data-aos="fade-left" data-aos-delay="3000">
         <li

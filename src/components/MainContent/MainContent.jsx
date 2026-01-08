@@ -102,7 +102,7 @@ function MainContent({ fireConfetti }) {
         data-aos="zoom-in"
         data-aos-delay="3000"
       >
-        <h1>Welcome Back ѕιℓєηтℓιση.</h1>
+        <h1>Welcome Back ѕιℓєηтℓєgιση.</h1>
         <div className="form-wraper">
           <div className="form-group">
             <span className="sl">
