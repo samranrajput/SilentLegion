@@ -3,11 +3,11 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 4em 0em;
-  height: 60vh;
+  height: 74vh;
 }
 
 .main-content h1 {
+  text-align: center;
   color: #e7c27d;
   text-shadow: 2px 4px 3px rgba(188, 0, 0, 0.6), 0 0 15px rgba(188, 0, 0, 0.6);
 }
@@ -180,13 +180,13 @@
 
 @media (max-width: 850px) and (orientation: portrait) {
   .main-content {
-    margin: 5em 0em;
+    height: 76vh;
   }
 }
 
 @media (max-width: 450px) and (orientation: portrait) {
   .main-content {
-    margin: 10em 0em;
+    height: 72vh;
   }
 
   .form-wraper {
